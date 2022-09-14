@@ -1,7 +1,17 @@
+/* GENERAL */
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+  max-width: 100%;
 }
 
 .container{
@@ -9,6 +19,8 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
+/* HEADER */
 
 header{
   display: flex;
@@ -26,13 +38,12 @@ header .container{
 header .menu ul{
   list-style: none;
   display: flex;
-  padding: 5px;
   color: white;
  
 }
 
 header .menu ul li{
-  margin: 0 17px;
+  margin: 0 5px;
 }
 
 header .menu ul li a:hover{
@@ -49,3 +60,21 @@ header .menu ul a{
 .logo img{
   height: 30px;
 }
+
+/* MAIN */
+
+main .container .row{
+  display: flex;
+}
+
+.product{
+  display: inline-block;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 5%;
+  width: 350px;
+  background-color: brown;
+}
+
+
+
