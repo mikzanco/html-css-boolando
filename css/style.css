@@ -70,11 +70,29 @@ main .container .row{
 .product{
   display: inline-block;
   justify-content: space-between;
+  cursor: pointer;
   position: relative;
   margin-top: 5%;
   width: 350px;
   background-color: brown;
 }
+
+.product .heart{
+  position: absolute;
+  top: 2%;
+  right: 0;
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+  width: 7%;
+  height: 5%;
+}
+
+.product .heart:hover{
+  color: red;
+}
+
+
 
 
 
