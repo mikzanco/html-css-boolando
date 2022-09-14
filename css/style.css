@@ -79,6 +79,8 @@ main .container .row{
   width: 350px;
 }
 
+
+
 .product .heart{
   position: absolute;
   top: 2%;
@@ -121,8 +123,27 @@ main .container .row{
   height: 4%;
 }
 
-.product:hover .A{
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #adafaf;
+}
+
+.a{
   display: block;
+  width: 100%;
+  height: auto;
+}
+
+.product:hover .overlay {
+  opacity: 1;
 }
 
 
