@@ -78,12 +78,10 @@ main .container .row{
   cursor: pointer;
   position: relative;
   margin-top: 5%;
-  width: 30%;
+  width: calc((100% / 3) - 20px);
   max-width: 100%;
-
+  padding: 10px;
 }
-
-
 
 .product .heart{
   position: absolute;
@@ -108,8 +106,13 @@ main .container .row{
   color: white;
   background-color: red;
   width: 20%;
-  
+  box-shadow: -3px 2px 5px red;
 }
+
+.product .price-now{
+  color: red;
+}
+
 
 .product .sos{
   position: absolute;
@@ -150,9 +153,6 @@ main .container .row{
   opacity: 1;
 }
 
-.product .price-now{
-  color: red;
-}
 
 /* FOOTER */
 
